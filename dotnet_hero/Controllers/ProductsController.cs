@@ -2,6 +2,7 @@
 using dotnet_hero.Entities;
 using dotnet_hero.Interfaces;
 using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,8 @@ using System.Threading.Tasks;
 namespace dotnet_hero.Controllers
 {
     [ApiController] 
-    [Route("[controller]")] 
+    [Route("[controller]")]
+    [Authorize(Roles = "Admin")]
     public class ProductsController : ControllerBase 
     {
         private readonly IProductService productService;

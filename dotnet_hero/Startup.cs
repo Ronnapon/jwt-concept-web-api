@@ -1,9 +1,11 @@
 using Autofac;
 using dotnet_hero.Data;
+using dotnet_hero.Installers;
 using dotnet_hero.Interfaces;
 using dotnet_hero.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -35,15 +37,8 @@ namespace dotnet_hero
         //ลงทะเบียน Service ติดต่อ Database, Auth, Sharing , UploadFile, Service กำหนดขึ้นเอง เป็นต้น
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            
-            services.AddDbContext<DatabaseContext>(options => 
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-    
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet_hero", Version = "v1" });
-            });     
+            services.InstallServiceInAssembly(Configuration);
+            services.ConfigureIISIntegration();
         }
 
         public void ConfigureContainer(ContainerBuilder builder)
@@ -74,16 +69,24 @@ namespace dotnet_hero
                 // Endpoint คือเส้นทางไป Map กับ Controller
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnet_hero v1"));
             }
+            else
+            {
+                app.UseHsts();
+            }
 
             // http to https
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.All
+            });
             // เส้นทาง
             app.UseRouting();
-
+            app.UseCors("AllowSpecificOrigins");
+            app.UseAuthentication();
             // ตรวจสอบสิทธิ์์
             app.UseAuthorization();
-
             // ประตูสุดท้าย เข้าไปหาใครสักคน
             app.UseEndpoints(endpoints =>
             {
