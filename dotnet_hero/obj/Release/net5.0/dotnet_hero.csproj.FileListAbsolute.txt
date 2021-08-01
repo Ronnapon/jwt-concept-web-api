@@ -63,3 +63,8 @@ C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\ref\dotnet_hero.dll
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\dotnet_hero.pdb
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\dotnet_hero.genruntimeconfig.cache
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\bin\Release\net5.0\Publish\web.config
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\bin\Release\net5.0\Publish\appsettings.Development.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\bin\Release\net5.0\Publish\appsettings.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\bin\Release\net5.0\Publish\dotnet_hero.deps.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\bin\Release\net5.0\Publish\dotnet_hero.runtimeconfig.json

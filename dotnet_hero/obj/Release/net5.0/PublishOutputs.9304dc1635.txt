@@ -1,7 +1,12 @@
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\dotnet_hero.exe
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\wwwroot\images\7b5bfd4d-e63e-4a85-a9b6-7503b0197ed0.PNG
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\Publish\web.config
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\Publish\appsettings.Development.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\Publish\appsettings.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\Publish\dotnet_hero.deps.json
+C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\Publish\dotnet_hero.runtimeconfig.json
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\dotnet_hero.dll
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\dotnet_hero.runtimeconfig.json
 C:\Users\jureeporn\Desktop\งานบิ๊ก\Programming\Project\dotnet_hero\dotnet_hero\obj\Release\net5.0\PubTmp\Out\dotnet_hero.pdb
